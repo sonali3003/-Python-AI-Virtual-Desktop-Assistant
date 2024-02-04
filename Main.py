@@ -88,7 +88,7 @@ def select_voice():
         print("Invalid voice index. Using the default voice.")
 
 def get_horoscope(zodiac_sign):
-    # Fetch today's horoscope for the given zodiac sign using the "aztro" API
+   
     url = f'https://astrotalk.com/horoscope/daily-horoscope&day=today'
     response = requests.post(url)
     
